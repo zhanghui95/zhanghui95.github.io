@@ -5,7 +5,8 @@
  * 镜像(image)
  * 容器(container)
  * 仓库(repository)
- <font color='red'>理解了三个概念，就理解了Docker的整个生命周期！</font>
+
+> <font color='red'>理解了上面三个概念，就理解了Docker的整个生命周期！</font>
 
 ### 1.1 镜像
     1. 镜像：一个只读的模板，可以创建容器
