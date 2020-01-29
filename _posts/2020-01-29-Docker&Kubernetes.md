@@ -43,19 +43,19 @@
     12. 导出镜像：docker save tomcat:7 > /root/tomcat7.tar.gz
 
 ## 3. Docker容器操作
- ### 3.1 启动容器
+### 3.1 启动容器
     1. 交互式启动：docker run -it --name 容器名称 镜像 /bin/bash
      eg：docker run it -name my-centos centos:7 /bin/bash
     2. 守护进程启动：docker run -d --name 容器名称 镜像
      查看已运行的容器：docker ps(正在运行)/docker ps -a(历史运行过)
 
- ### 3.2 停止
+### 3.2 停止
     docker stop 容器名称 eg：docker stop my-centos
 
- ### 3.3 重启
+### 3.3 重启
     docker start 容器名称或容器id
 
- ### 3.4 删除容器
+### 3.4 删除容器
     1. 删除指定容器：docker rm 容器名称或容器id
     2. 删除所有容器：docker rm 'docker ps -a -q'
 
