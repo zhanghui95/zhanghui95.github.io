@@ -1,4 +1,4 @@
-# SpringSecurity
+# Spring Security
 
 ## 1. 基本原理图
 
