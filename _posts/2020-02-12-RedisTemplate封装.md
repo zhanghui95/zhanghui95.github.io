@@ -1,6 +1,7 @@
+## RedisTemplate工具
+
 ```java
 
-package com.wafer.cache;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.DataType;
