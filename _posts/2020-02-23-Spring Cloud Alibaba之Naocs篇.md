@@ -50,9 +50,9 @@ db.password=root
 1. pom引入nacos服务发现等依赖
 
 ```xml
- <!-- spring-cloud -->
+<!-- spring-cloud -->
 <dependency>
-		<groupId>com.alibaba.cloud</groupId>
+    <groupId>com.alibaba.cloud</groupId>
     <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
 </dependency>
 <dependency>
