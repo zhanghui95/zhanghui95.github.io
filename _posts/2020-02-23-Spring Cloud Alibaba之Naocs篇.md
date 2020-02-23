@@ -79,7 +79,7 @@ spring.cloud.nacos.config.file-extension=properties
 
 > 通过上一步配置，启动项目后服务已经注册到nacos了，实现了服务注册发现。接下来使用配置中心。
 
-1. 上一步配置的spring.cloud.nacos.config.file-extension=properties其实是指定nacos中配置文件的格式，我这里用properties，也可指定yml格式，那么在nacos中新建的文件格式就要一直。
+1. 上一步配置的spring.cloud.nacos.config.file-extension=properties其实是指定nacos中配置文件的格式，我这里用properties，也可指定yml格式，那么在nacos中新建的文件格式就要一致。
 2. 打开http://localhost:8848/nacos 账号密码：nacos/nacos
 3. 在配置列表菜单，点击新建。**Data ID** 这里指定应用名例如 auth-dev.properties，默认**Group**不需要更改，格式选择properties，配置内容就是填写一般在application.properties中的配置。(说明：1. Data ID这里auth为应用名，-dev为dev环境，可以不指定则不用激活dev，.properties为格式，如果指定yml，则这里是 .yml 这里是一个坑 必须有文件格式 要不然服务启动默认找配置中心配置是找不到的)
 4. 发布后，应用主类添加 `@EnableDiscoveryClient` 允许服务发现注解，启动服务，则默认会从配置中心获取配置，完成服务注册发现与配置中心。
