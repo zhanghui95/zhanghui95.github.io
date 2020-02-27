@@ -1,6 +1,6 @@
 
 
-# Spring Cloud Alibaba之Naocs篇
+# Spring Cloud Alibaba之Nacos篇
 
 ## 1. 用Nacos作为服务注册中心与配置中心
 
