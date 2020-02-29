@@ -86,13 +86,13 @@ spring.cloud.nacos.config.file-extension=properties
 
 ## 5. 我的进度
 
-- [x] nacos服务注册配置中心mysql持久化
-- [x] gateway实现动态路由刷新
-- [x] 服务间Dubbo调用并注册nacos
-- [x] 动态数据源+seata分布式事务AT模式+MybatisPlus(Seata交流群管理对动态数据源的PR)
-- [x] sentinel熔断 限流
-- [x] sentinel配置实现nacos控制
-- [ ] 集成swagger增强工具knife4j
+- [x] nacos服务注册配置中心+mysql持久化
+- [x] gateway实现nacos动态路由刷新
+- [x] SpringCloudAlibaba服务间dubbo
+- [x] MybatisPlus+动态数据源+seata分布式事务AT模式(Seata交流群管理对动态数据源的PR)
+- [x] sentinel熔断 限流基于dashboard
+- [x] sentinel配置基于nacos持久化
 - [x] 集成JustAuth适配第三方登录
 - [ ] ~~集成shaun(基于pac4j的安全框架)~~
-- [x] 集成JwtPermission实现token认证与单点登录
+- [x] 集成JwtPermission实现认证与单点登录SSO
+- [ ] 集成swagger增强工具knife4j
