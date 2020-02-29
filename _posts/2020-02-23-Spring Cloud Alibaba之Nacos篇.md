@@ -91,7 +91,7 @@ spring.cloud.nacos.config.file-extension=properties
 - [x] 服务间Dubbo调用并注册nacos
 - [x] 动态数据源+seata分布式事务AT模式+MybatisPlus(Seata交流群管理对动态数据源的PR)
 - [x] sentinel熔断 限流
-- [ ] sentinel配置实现nacos控制
+- [x] sentinel配置实现nacos控制
 - [ ] 集成swagger增强工具knife4j
 - [x] 集成JustAuth适配第三方登录
 - [ ] ~~集成shaun(基于pac4j的安全框架)~~
